@@ -1,0 +1,58 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url("../img/back-1366x720.jpg") no-repeat center center;
+  min-height: 100vh;
+  background-size: cover;
+  background-color: #ffedac;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Ageo";
+  src: url("fonts/ageo-personal-use.regular.otf");
+  src: url("fonts/ageo-personal-use.regular.otf") format("embedded-opentype"),
+    url("fonts/ageo-personal-use.regular-webfont.woff") format("woff"),
+    url("fonts/ageo-personal-use.regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Board-7";
+  src: url("fonts/enhanced_led_board-7.ttf");
+  src: url("fonts/enhanced_led_board-7.ttf") format(truetype),
+    url("fonts/enhanced_led_board-7-webfont.woff") format(woff),
+    url("fonts/enhanced_led_board-7-webfont.woff2") format(woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+svg {
+  font-family: "EnhancedLEDBoard-7, Enhanced LED Board-7", sans-serif;
+}
+
+#calculadora-casaldev {
+  margin: 0 auto;
+  box-shadow: 10px 0 10px #d9b555;
+  border-radius: 20px;
+  max-height: 75vh;
+  max-width: 47vh;
+}
